@@ -3,6 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;700;900&display=swap');
 
 
+
+.navbar {
+    background-color: $primary;
+}
+
+.bi-megaphone-fill {
+    transform: rotate(-20deg)
+}
+
 h1, h3 {
     font-family: 'Exo';
     // font-weight: 900;
