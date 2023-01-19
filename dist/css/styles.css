@@ -10769,5 +10769,9 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.login {
+  background-color: white;
+  border-radius: 5px;
+}
 
 /*# sourceMappingURL=styles.css.map */
