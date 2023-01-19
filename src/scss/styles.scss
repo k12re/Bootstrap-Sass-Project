@@ -2,15 +2,17 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;700;900&display=swap');
 
-
+// body {
+//     max-width: 2200px;
+// }
 
 .navbar {
     background-color: $primary;
 }
 
-.bi-megaphone-fill {
-    transform: rotate(-20deg)
-}
+// .bi-megaphone-fill {
+//     transform: rotate(-20deg)
+// }
 
 h1, h3 {
     font-family: 'Exo';
@@ -21,4 +23,8 @@ h1, h3 {
 .login {
     background-color: white;
     border-radius: 5px;
+}
+
+.avatar {
+    border-radius: 50%;
 }
