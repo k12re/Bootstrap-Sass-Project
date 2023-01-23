@@ -1,23 +1,11 @@
 @import "variables";
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/functions";
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;700;900&display=swap');
-
-// body {
-//     font-family: 'Exo';
-//     color: black;
-// }
 
 .navbar {
     color: $primary;
 }
-
-// .bi-megaphone-fill {
-//     transform: rotate(-20deg)
-// }
-
-// body {
-//     background-image: url("/img/gradient-luke-chesser-3POMgLjfYv0-unsplash.jpg");
-// }
 
 h1, h2, h3, p, a {
     font-family: 'Exo';
@@ -36,7 +24,9 @@ h1, h2, h3, p, a {
     object-fit: cover;
 }
 
-// .avatar {
-//     width: 40px;
-//     height: 40px;
-// }
+
+
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/mixins";
+@import "../node_modules/bootstrap/scss/root";

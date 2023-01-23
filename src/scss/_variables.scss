@@ -1,2 +1,8 @@
-$primary: #FF7022;
-$secondary: black
+//#ff7022;
+
+$new-primary: $orange;
+
+$theme-colors: (
+    "new-primary":$new-primary);
+
+$colors: map-merge($theme-colors, $new-primary);
