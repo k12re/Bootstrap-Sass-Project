@@ -7,7 +7,7 @@
 // }
 
 .navbar {
-    background-color: $primary;
+    --#{$prefix}navbar-color: #{$primary};
 }
 
 // .bi-megaphone-fill {
