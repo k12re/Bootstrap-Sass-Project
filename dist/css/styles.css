@@ -10774,7 +10774,7 @@ textarea.form-control-lg {
   color: #FF7022;
 }
 
-h1, .h1, h3, .h3 {
+h1, .h1, h2, .h2, h3, .h3, p, a {
   font-family: "Exo";
   color: black;
 }
@@ -10785,7 +10785,7 @@ h1, .h1, h3, .h3 {
 }
 
 .profile-header {
-  height: 380px;
+  height: 400px;
   width: 100%;
   object-fit: cover;
 }
