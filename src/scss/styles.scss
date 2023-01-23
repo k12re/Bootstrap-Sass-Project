@@ -2,9 +2,10 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;700;900&display=swap');
 
-// body {
-//     max-width: 2200px;
-// }
+body {
+    font-family: 'Exo';
+    color: black;
+}
 
 .navbar {
     color: $navbar-light-color;
@@ -18,11 +19,11 @@
 //     background-image: url("/img/gradient-luke-chesser-3POMgLjfYv0-unsplash.jpg");
 // }
 
-h1, h2, h3, p {
-    font-family: 'Exo';
-    // font-weight: 900;
-    color: black;
-}
+// h1, h2, h3, p {
+//     font-family: 'Exo';
+//     // font-weight: 900;
+//     color: black;
+// }
 
 .login {
     background-color: white;
