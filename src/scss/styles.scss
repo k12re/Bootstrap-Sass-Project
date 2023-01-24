@@ -3,10 +3,6 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;700;900&display=swap');
 
-.navbar {
-    color: $primary;
-}
-
 h1, h2, h3, h4, h5, p, a, label, span {
     font-family: 'Exo';
     // font-weight: 900;
@@ -23,10 +19,3 @@ h1, h2, h3, h4, h5, p, a, label, span {
     width: 100%;
     object-fit: cover;
 }
-
-
-
-// @import "../../node_modules/bootstrap/scss/variables";
-// @import "../../node_modules/bootstrap/scss/maps";
-// @import "../../node_modules/bootstrap/scss/mixins";
-// @import "../../node_modules/bootstrap/scss/root";
