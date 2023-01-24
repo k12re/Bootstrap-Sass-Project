@@ -1,6 +1,7 @@
 $primary: #ff7022;
 
-$theme-colors: (
-    "new-primary":$new-primary);
+// $custom-primaries: (
+//     "custom-primary": 
+// )
 
-$colors: map-merge($theme-colors, $new-primary);
+// $theme-colors: map-merge($theme-colors, $primary);
