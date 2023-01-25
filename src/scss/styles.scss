@@ -3,14 +3,8 @@
 @import "../../node_modules/bootstrap/scss/functions";
 @import url('https://fonts.googleapis.com/css2?family=Exo:wght@300;700;900&display=swap');
 
-// h1, h2, h3, h4, h5, p, a, label, span, .btn, .form-text {
-//     // font-family: 'Exo';
-//     // font-weight: 900;
-//     color: black;
-// }
-
 .profile-header {
     height: 400px;
-    width: 100%;
+    width: 100% !important;
     object-fit: cover;
 }
