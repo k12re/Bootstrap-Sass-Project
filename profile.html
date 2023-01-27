@@ -1,187 +1,367 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Megaphone - Announce your life profile page">
-    <link rel="stylesheet" href="dist/css/styles.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Megaphone - Announce your life profile page"
+    />
+    <link rel="stylesheet" href="dist/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css"
+    />
     <title>Profile</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navbar navbar-expand-md bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="home.html">Megaphone <i class="bi bi-megaphone-fill"></i></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" href="./home.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Profile</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  More
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Account</a></li>
-                  <li><a class="dropdown-item" href="#">Global</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="./index.html">Log out</a></li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html"
+          >Megaphone <i class="bi bi-megaphone-fill"></i
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" href="./home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Profile</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                More
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Account</a></li>
+                <li><a class="dropdown-item" href="#">Global</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="./index.html">Log out</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <main class="position-relative">
+      <section>
+        <img
+          src="./img/space-nasa-Q1p7bh3SHj8-unsplash.jpg"
+          class="profile-header pb-5"
+          alt="A picture of the world from space"
+        />
+      </section>
+      <section class="container mb-4">
+        <div class="row">
+          <div class="col-12 col-md-8">
+            <img
+              src="./img/6BEAB26E.jpg"
+              class="col-2 rounded profile-avatar"
+              alt="A picture of me"
+            />
+            <h1 class="mb-5">Ken Thore Bøeng</h1>
+            <h2>Details</h2>
+            <p>
+              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+              scelerisque ante sollicitudin. Cras purus odio, vestibulum in
+              vulputate at, tempus viverra turpis. Fusce condimentum nunc ac
+              nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="container mb-4">
+        <h2 class="position-relative">Contacts</h2>
+        <div class="row">
+          <div class="col-12 col-sm-8 col-md-6">
+            <div class="d-flex">
+              <div>
+                <img
+                  class="rounded-circle col-10 col-sm-6"
+                  src="./img/avatar-ben-sweet-2LowviVHZ-E-unsplash.jpg"
+                />
+                <p class="">Bob</p>
+              </div>
+              <div>
+                <img
+                  class="rounded-circle col-10 col-sm-6"
+                  src="./img/avatar-ben-sweet-2LowviVHZ-E-unsplash.jpg"
+                />
+                <p>Fred</p>
+              </div>
+              <div>
+                <img
+                  class="rounded-circle col-10 col-sm-6"
+                  src="./img/avatar-ben-sweet-2LowviVHZ-E-unsplash.jpg"
+                />
+                <p>Fritz</p>
+              </div>
+              <div>
+                <img
+                  class="rounded-circle col-10 col-sm-6"
+                  src="./img/avatar-sean-kong-od-2xks9Alc-unsplash.jpg"
+                />
+                <p>Nita</p>
+              </div>
+              <div>
+                <img
+                  class="rounded-circle col-10 col-sm-6"
+                  src="./img/avatar-sean-kong-od-2xks9Alc-unsplash.jpg"
+                />
+                <p>Anita</p>
+              </div>
+              <div>
+                <img
+                  class="rounded-circle col-10 col-sm-6"
+                  src="./img/avatar-sean-kong-od-2xks9Alc-unsplash.jpg"
+                />
+                <p>Rita</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="container mb-4">
+        <div class="row">
+          <div class="col-12 col-lg-8">
+            <h2>Create post</h2>
+            <form>
+              <div>
+                <label for="exampleFormControlTextarea1" class="form-label"
+                  >Write something..</label
+                >
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary mt-3">Submit</button>
+              <i class="bi bi-paperclip"></i><span>Add file</span>
             </form>
           </div>
         </div>
-      </nav>
-      <main class="position-relative">
-        <section>
-            <img src="./img/space-nasa-Q1p7bh3SHj8-unsplash.jpg" class=" profile-header pb-5" alt="A picture of the world from space">
-        </section>
-        <section class="container mb-4">
-            <div class="row">
-              <div class="col-12 col-md-8">
-                <img src="./img/6BEAB26E.jpg" class="col-2 rounded profile-avatar" alt="A picture of me">
-                <h1 class="mb-5">Ken Thore Bøeng</h1>
-                <h2>Details</h2>
-                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. 
-                  Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. 
-                  Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
-              </div>
-            </div>
-        </section>
-         <section class="container mb-4">
-          <h2 class="position-relative">Contacts</h2>
-          <div class="row">
-            <div class="col-12 col-sm-8 col-md-6">
-              <div class="d-flex">
-                <div>
-                  <img class="rounded-circle col-10 col-sm-6" src="./img/avatar-ben-sweet-2LowviVHZ-E-unsplash.jpg">
-                  <p class="">Bob</p>
-                </div>
-                <div>
-                  <img class="rounded-circle col-10 col-sm-6" src="./img/avatar-ben-sweet-2LowviVHZ-E-unsplash.jpg">
-                  <p>Fred</p>
-                </div>
-                <div>
-                  <img class="rounded-circle col-10 col-sm-6" src="./img/avatar-ben-sweet-2LowviVHZ-E-unsplash.jpg">
-                  <p>Fritz</p>
-                </div>
-                <div>
-                  <img class="rounded-circle col-10 col-sm-6" src="./img/avatar-sean-kong-od-2xks9Alc-unsplash.jpg">
-                  <p>Nita</p>
-                </div>
-                <div>
-                  <img class="rounded-circle col-10 col-sm-6" src="./img/avatar-sean-kong-od-2xks9Alc-unsplash.jpg">
-                  <p>Anita</p>
-                </div>
-                <div>
-                  <img class="rounded-circle col-10 col-sm-6" src="./img/avatar-sean-kong-od-2xks9Alc-unsplash.jpg">
-                  <p>Rita</p>
-                </div>
+      </section>
+      <section class="container mb-4">
+        <div class="row">
+          <h2 class="col-12">My posts</h2>
+          <div class="card mb-3 col-12 col-md-6 col-lg-4">
+            <div class="card-body">
+              <h5 class="card-title">Dad joke</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+              <div>
+                <img
+                  class="rounded-circle col-1"
+                  src="./img/6BEAB26E.jpg"
+                /><span class="ps-2"
+                  >Me<i class="bi bi-share btn link-primary text-muted"></i
+                  ><i
+                    class="bi bi-chat-left-dots btn link-primary text-muted"
+                  ></i
+                  ><i class="bi bi-heart btn link-primary text-muted"></i
+                ></span>
               </div>
             </div>
           </div>
-        </section>
-        <section class="container mb-4">
-          <div class="row">
-            <div class="col-12 col-lg-8">
-              <h2>Create post</h2>
-                <form>
-                <div>
-                  <label for="exampleFormControlTextarea1" class="form-label">Write something..</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <button type="submit" class="btn btn-primary mt-3">Submit</button>
-                <i class="bi bi-paperclip"></i><span>Add file</span>
-              </form>
+          <div class="card mb-3 col-12 col-md-6 col-lg-4">
+            <div class="card-body">
+              <h5 class="card-title">Rant post without image</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Integer feugiat scelerisque varius morbi enim nunc faucibus a
+                pellentesque. Scelerisque purus semper eget duis at tellus at
+                urna condimentum. Vel pretium lectus quam id leo..
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 5 days ago</small>
+              </p>
+              <img class="rounded-circle col-1" src="./img/6BEAB26E.jpg" /><span
+                class="ps-2"
+                >Me<i class="bi bi-share btn link-primary text-muted"></i
+                ><i class="bi bi-chat-left-dots btn link-primary text-muted"></i
+                ><i class="bi bi-heart btn link-primary text-muted"></i
+              ></span>
             </div>
           </div>
-        </section>
-        </section>
-        <section class="container mb-4">
-          <div class="row">
-                <h2>My posts</h2>
-                <div class="card mb-3 col-12 col-md-6 col-lg-4">
-                  <div class="card-body">
-                    <h5 class="card-title">Dad joke</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                      <div>
-                        <img class="rounded-circle col-1" src="./img/6BEAB26E.jpg"><span class="ps-2">Me<i class="bi bi-share btn link-primary text-muted"></i><i class="bi bi-chat-left-dots btn link-primary text-muted"></i><i class="bi bi-heart btn link-primary text-muted"></i></span></span>
-                      </div>
-                  </div>
-                </div>
-                <div class="card mb-3 col-12 col-md-6 col-lg-4">
-                  <div class="card-body">
-                    <h5 class="card-title">Rant post without image</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim nunc faucibus a pellentesque. Scelerisque purus semper eget duis at tellus at urna condimentum. Vel pretium lectus quam id leo..</p>
-                    <p class="card-text"><small class="text-muted">Last updated 5 days ago</small></p>
-                    <img class="rounded-circle col-1" src="./img/6BEAB26E.jpg"><span class="ps-2">Me<i class="bi bi-share btn link-primary text-muted"></i><i class="bi bi-chat-left-dots btn link-primary text-muted"></i><i class="bi bi-heart btn link-primary text-muted"></i></span></span>
-                  </div>
-                </div>
-                <div class="card mb-3 col-12 col-md-6 col-lg-4">
-                  <div class="card-body">
-                    <h5 class="card-title">Minimum post</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 weeks ago</small></p>
-                    <img class="rounded-circle col-1" src="./img/6BEAB26E.jpg"><span class="ps-2">Me<i class="bi bi-share btn link-primary text-muted"></i><i class="bi bi-chat-left-dots btn link-primary text-muted"></i><i class="bi bi-heart btn link-primary text-muted"></i></span></span>
-                  </div>
-                </div>
-                <h2 class="pt-4">Latest posts</h2>
-                <div class="card mb-3 col-12 col-md-6 col-lg-4">
-                  <img src="./img/food-anna-pelzer-IGfIGP5ONV0-unsplash.jpg" class="card-img-top pt-3" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Boring dinner post</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim nunc faucibus a pellentesque.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                    <div class="justify-content-end">
-                      <img class="rounded-circle col-1" src="./img/avatar-ben-sweet-2LowviVHZ-E-unsplash.jpg"><span class="ps-2">Bob<i class="bi bi-share btn link-primary text-muted"></i><i class="bi bi-chat-left-dots btn link-primary text-muted"></i><i class="bi bi-heart btn link-primary text-muted"></i></span>
-                    </div>
-                  </div>
-                </div>
-                <div class="card mb-3 col-12 col-md-6 col-lg-4">
-                  <img src="./img/home-outsite-co-R-LK3sqLiBw-unsplash.jpg" class="card-img-top pt-3" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Look at my home post</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim nunc faucibus a pellentesque. Scelerisque purus semper eget duis at tellus at urna condimentum. Consequat mauris nunc congue nisi vitae suscipit tellus. Ornare quam viverra orci sagittis eu volutpat.</p>
-                    <p class="card-text"><small class="text-muted">Last updated 5 hours ago</small></p>
-                    <img class="rounded-circle col-1" src="./img/avatar-sean-kong-od-2xks9Alc-unsplash.jpg"><span class="ps-2">Anita<i class="bi bi-share btn link-primary text-muted"></i><i class="bi bi-chat-left-dots btn link-primary text-muted"></i><i class="bi bi-heart btn link-primary text-muted"></i></span></span>
-                  </div>
-                </div>
-                <div class="card mb-3 col-12 col-md-6 col-lg-4">
-                <img src="./img/travel-jack-anstey-XVoyX7l9ocY-unsplash.jpg" class="card-img-top pt-3" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">Announce my traveling post</h5>
-                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Integer feugiat scelerisque varius morbi enim nunc faucibus a pellentesque. Scelerisque purus semper eget duis at tellus at urna condimentum. Vel pretium lectus quam id leo..</p>
-                    <p class="card-text"><small class="text-muted">Last updated 1 day ago</small></p>
-                    <img class="rounded-circle col-1" src="./img/avatar-ben-sweet-2LowviVHZ-E-unsplash.jpg"><span class="ps-2">Fritz<i class="bi bi-share btn link-primary text-muted"></i><i class="bi bi-chat-left-dots btn link-primary text-muted"></i><i class="bi bi-heart btn link-primary text-muted"></i></span></span>
-                  </div>
-                </div>
+          <div class="card mb-3 col-12 col-md-6 col-lg-4">
+            <div class="card-body">
+              <h5 class="card-title">Minimum post</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 weeks ago</small>
+              </p>
+              <img class="rounded-circle col-1" src="./img/6BEAB26E.jpg" /><span
+                class="ps-2"
+                >Me<i class="bi bi-share btn link-primary text-muted"></i
+                ><i class="bi bi-chat-left-dots btn link-primary text-muted"></i
+                ><i class="bi bi-heart btn link-primary text-muted"></i
+              ></span>
+            </div>
           </div>
-        </section>
-      </main>
-        <div class="container">
-          <footer class="p-3 m-4">
-            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-              <li class="nav-item"><a href="./home.html" class="nav-link link-primary px-2 text-muted">Home</a></li>
-              <li class="nav-item"><a href="#" class="nav-link link-primary px-2 text-muted">Profile</a></li>
-              <li class="nav-item"><a href="#" class="nav-link link-primary px-2 text-muted">Settings</a></li>
-              <li class="nav-item"><a href="#" class="nav-link link-primary px-2 text-muted">FAQs</a></li>
-              <li class="nav-item"><a href="#" class="nav-link link-primary px-2 text-muted">About</a></li>
-            </ul>
-            <p class="text-center text-muted">© 2023 Ken Thore Bjerke Bøeng</p>
-          </footer>
+          <h2 class="pt-4">Latest posts</h2>
+          <div class="card mb-3 col-12 col-md-6 col-lg-4">
+            <img
+              src="./img/food-anna-pelzer-IGfIGP5ONV0-unsplash.jpg"
+              class="card-img-top pt-3"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Boring dinner post</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Integer feugiat scelerisque varius morbi enim nunc faucibus a
+                pellentesque.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </p>
+              <div class="justify-content-end">
+                <img
+                  class="rounded-circle col-1"
+                  src="./img/avatar-ben-sweet-2LowviVHZ-E-unsplash.jpg"
+                /><span class="ps-2"
+                  >Bob<i class="bi bi-share btn link-primary text-muted"></i
+                  ><i
+                    class="bi bi-chat-left-dots btn link-primary text-muted"
+                  ></i
+                  ><i class="bi bi-heart btn link-primary text-muted"></i
+                ></span>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 col-12 col-md-6 col-lg-4">
+            <img
+              src="./img/home-outsite-co-R-LK3sqLiBw-unsplash.jpg"
+              class="card-img-top pt-3"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Look at my home post</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Integer feugiat scelerisque varius morbi enim nunc faucibus a
+                pellentesque. Scelerisque purus semper eget duis at tellus at
+                urna condimentum. Consequat mauris nunc congue nisi vitae
+                suscipit tellus. Ornare quam viverra orci sagittis eu volutpat.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 5 hours ago</small>
+              </p>
+              <img
+                class="rounded-circle col-1"
+                src="./img/avatar-sean-kong-od-2xks9Alc-unsplash.jpg"
+              /><span class="ps-2"
+                >Anita<i class="bi bi-share btn link-primary text-muted"></i
+                ><i class="bi bi-chat-left-dots btn link-primary text-muted"></i
+                ><i class="bi bi-heart btn link-primary text-muted"></i
+              ></span>
+            </div>
+          </div>
+          <div class="card mb-3 col-12 col-md-6 col-lg-4">
+            <img
+              src="./img/travel-jack-anstey-XVoyX7l9ocY-unsplash.jpg"
+              class="card-img-top pt-3"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Announce my traveling post</h5>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Integer feugiat scelerisque varius morbi enim nunc faucibus a
+                pellentesque. Scelerisque purus semper eget duis at tellus at
+                urna condimentum. Vel pretium lectus quam id leo..
+              </p>
+              <p class="card-text">
+                <small class="text-muted">Last updated 1 day ago</small>
+              </p>
+              <img
+                class="rounded-circle col-1"
+                src="./img/avatar-ben-sweet-2LowviVHZ-E-unsplash.jpg"
+              /><span class="ps-2"
+                >Fritz<i class="bi bi-share btn link-primary text-muted"></i
+                ><i class="bi bi-chat-left-dots btn link-primary text-muted"></i
+                ><i class="bi bi-heart btn link-primary text-muted"></i
+              ></span>
+            </div>
+          </div>
         </div>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-      </body>
+      </section>
+    </main>
+    <div class="container">
+      <footer class="p-3 m-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item">
+            <a href="./home.html" class="nav-link link-primary px-2 text-muted"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link link-primary px-2 text-muted"
+              >Profile</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link link-primary px-2 text-muted"
+              >Settings</a
+            >
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link link-primary px-2 text-muted">FAQs</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link link-primary px-2 text-muted">About</a>
+          </li>
+        </ul>
+        <p class="text-center text-muted">© 2023 Ken Thore Bjerke Bøeng</p>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
